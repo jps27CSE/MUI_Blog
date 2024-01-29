@@ -1,7 +1,11 @@
-import { Paper } from "@mui/material";
+import { Grid, Paper } from "@mui/material";
 
 const TourCard = () => {
-  return <Paper elevation={3}>Hello</Paper>;
+  return (
+    <Grid item xs={3}>
+      <Paper elevation={3}>Hello</Paper>
+    </Grid>
+  );
 };
 
 export default TourCard;
